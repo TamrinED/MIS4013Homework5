@@ -5,11 +5,11 @@
 function flipbook(){
 <div id="flipbook">
 	<div class="hard"> Turn.js </div>
-	<div class="hard"></div>
-	<div> Page 1 </div>
-	<div> Page 2 </div>
-	<div> Page 3 </div>
-	<div> Page 4 </div>
+	<div class="hard">Book of Syllabuses</div>
+	<div> MIS 2113 </div>
+	<div> MIS 3033 </div>
+	<div> MIS 4013 </div>
+	<div> MIS 3353 </div>
 	<div class="hard"></div>
 	<div class="hard"></div>
 </div>
