@@ -1,8 +1,7 @@
 <?php require_once("header.php") ?>
 
-
 <?php
-function flipbook(){
+
 <div> id="flipbook"
 	<div class="hard"> Turn.js </div>
 	<div class="hard">Book of Syllabuses</div>
@@ -21,8 +20,7 @@ function flipbook(){
 	});
 </script>
 
-}
-?>
 
+?>
 
 <?php require_once("footer.php") ?>
