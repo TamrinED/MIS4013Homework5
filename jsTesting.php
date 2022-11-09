@@ -3,7 +3,7 @@
 
 <?php
 function flipbook(){
-<div id="flipbook"
+<div> id="flipbook"
 	<div class="hard"> Turn.js </div>
 	<div class="hard">Book of Syllabuses</div>
 	<div> MIS 2113 </div>
