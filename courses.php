@@ -1,4 +1,5 @@
 <?php require_once("header.php"); ?>
+<?php require_once("jsTesting.php"); ?>
 
 <body>
     <h1>Courses</h1>
@@ -98,6 +99,10 @@ if ($result->num_rows > 0) {
       </td>
       
   </tr>
+      <div>
+      <h1> Here's the current syllabuses for these courses</h1>
+          <p> <?php> flipbook(); ?> </p>
+          
       
 <?php
   }
