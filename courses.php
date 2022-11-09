@@ -100,8 +100,8 @@ if ($result->num_rows > 0) {
       
   </tr>
       <div>
-      <h1> Here's the current syllabuses for these courses</h1>
-          <p> <div> id="flipbook"
+      <h4> Here's the current syllabuses for these courses</h4>
+         <div> id="flipbook"
 	<div class="hard"> Turn.js </div>
 	<div class="hard">Book of Syllabuses</div>
 	<div> MIS 2113 </div>
@@ -110,7 +110,7 @@ if ($result->num_rows > 0) {
 	<div> MIS 3353 </div>
 	<div class="hard"></div>
 	<div class="hard"></div>
-</div> </p>
+</div> 
           
       
 <?php
