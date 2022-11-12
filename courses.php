@@ -1,5 +1,4 @@
 <?php require_once("header.php"); ?>
-<?php require_once("jsTesting.php"); ?>
 
 <body>
     <h1>Courses</h1>
@@ -100,7 +99,19 @@ if ($result->num_rows > 0) {
       
   </tr>
    
-      
+      <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="demo"></p>
+
+<script>
+var x, y, z;  // Declare 3 variables
+x = 5;    // Assign the value 5 to x
+y = 6;    // Assign the value 6 to y
+z = x + y;  // Assign the sum of x and y to z
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";
+</script>
       
 <?php
   }
