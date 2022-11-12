@@ -105,12 +105,12 @@ if ($result->num_rows > 0) {
   echo "0 results";
 }
 $conn->close();
-      $numofrows = $num_rows.Count;
+      $numofrows = rowCount;
 ?>
   </tbody>
     </table>
 
-    <p>The number of <b>courses</b> I took at <b>The University of Oklahoma</b>.</p>
+    <p>The number of <b>courses</b> edited,added, or deleted>.</p>
 
 <p id="demo"></p>
     
@@ -121,7 +121,7 @@ var x;
 x = numofrows;
 
 document.getElementById("demo").innerHTML =
-"Total number of courses taken by Tamrin Davis is " + x + ".";
+"Total number of courses edited is " + x + ".";
 </script>
     
     <?php require_once("footer.php"); ?>
