@@ -104,25 +104,27 @@ if ($result->num_rows > 0) {
 } else {
   echo "0 results";
 }
-   $numofrows = rowCount;   
+
 $conn->close();
       
 ?>
   </tbody>
     </table>
 
-    <p>The number of <b>courses</b> edited,added, or deleted>.</p>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World!";
+}
+</script>
+</head>
+
+<body>
+
+<p>When you click "Try it", a function will be called.</p>
+<p>The function will display a message.</p>
+
+<button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
-    
-
-    
-<script>
-var x; 
-x = numofrows;
-
-document.getElementById("demo").innerHTML =
-"Total number of courses edited is " + x + ".";
-</script>
     
     <?php require_once("footer.php"); ?>
