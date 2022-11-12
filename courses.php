@@ -105,22 +105,23 @@ if ($result->num_rows > 0) {
   echo "0 results";
 }
 $conn->close();
+      $numofrows = $num_rows.Count;
 ?>
   </tbody>
     </table>
 
-    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    <p>The number of <b>courses</b> I took at <b>The University of Oklahoma</b>.</p>
 
 <p id="demo"></p>
+    
 
+    
 <script>
-var x, y, z;  // Declare 3 variables
-x = 5;    // Assign the value 5 to x
-y = 6;    // Assign the value 6 to y
-z = x + y;  // Assign the sum of x and y to z
+var x; 
+x = numofrows;
 
 document.getElementById("demo").innerHTML =
-"The value of z is " + z + ".";
+"Total number of courses taken by Tamrin Davis is " + x + ".";
 </script>
     
     <?php require_once("footer.php"); ?>
