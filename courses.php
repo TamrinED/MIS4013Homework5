@@ -97,9 +97,19 @@ if ($result->num_rows > 0) {
               </form>
       </td>
       
-  </tr>
-   
-      <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+      </tr>
+      
+<?php
+  }
+} else {
+  echo "0 results";
+}
+$conn->close();
+?>
+  </tbody>
+    </table>
+
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
 
 <p id="demo"></p>
 
@@ -112,15 +122,5 @@ z = x + y;  // Assign the sum of x and y to z
 document.getElementById("demo").innerHTML =
 "The value of z is " + z + ".";
 </script>
-      
-<?php
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
-?>
-  </tbody>
-    </table>
-
+    
     <?php require_once("footer.php"); ?>
