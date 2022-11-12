@@ -104,8 +104,9 @@ if ($result->num_rows > 0) {
 } else {
   echo "0 results";
 }
+   $numofrows = rowCount;   
 $conn->close();
-      $numofrows = rowCount;
+      
 ?>
   </tbody>
     </table>
