@@ -113,17 +113,17 @@ $conn->close();
 
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World!";
+  document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
 </script>
 </head>
 
 <body>
 
-<p>When you click "Try it", a function will be called.</p>
-<p>The function will display a message.</p>
+<p>When you click "Secret", you will know a secret.</p>
+<p>The secret is a message.</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction()">Secret?</button>
 
 <p id="demo"></p>
     
