@@ -123,7 +123,7 @@ function myFunction1() {
 
 <button onclick="myFunction1()">Secret?</button>
 
-    <div padding-left: 80px;
+    <div padding-left: 80px>;
 <p id="demo"></p>
     </div>
         
@@ -143,6 +143,7 @@ function myFunction3() {
 }
 </script>
 
+    <p>Click me to change the color of the title of this webpage</p>
 <button type="button" onclick="myFunction3()">iSpy BLUE!</button>
 
     
