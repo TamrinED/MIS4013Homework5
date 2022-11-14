@@ -126,7 +126,7 @@ function myFunction1() {
     
     <script>
         function myFunction2() {
-           document.getElementById("right").innerHTML = "Date()";
+           document.getElementById("right").innerHTML = Date();
         }
     </script>
     <p>Click "Time" to know the current time.</p>
