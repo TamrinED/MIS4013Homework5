@@ -146,5 +146,25 @@ function myFunction3() {
     <p>Click me to change the color of the title of this webpage</p>
 <button type="button" onclick="myFunction3()">iSpy BLUE!</button>
 
+    <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.gif"
+  } else {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Lumos</button>
+<button type="button" onclick="light(0)">Nox</button>
+</p>
     
     <?php require_once("footer.php"); ?>
