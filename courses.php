@@ -122,7 +122,7 @@ function myFunction1() {
 
 <button onclick="myFunction1()">Secret?</button>
 
-<p id="demo"></p>
+<p padding-left: 80px id="demo"></p>
     
     <script>
         function myFunction2() {
@@ -141,9 +141,10 @@ function myFunction1() {
             
 }
     </script>
+    
  <form method = toCelsius() action="">
      <label for = "userInput">"Input Temperature in Fahrenheit"</label><br>
-     <input type="int" id="userInput" name="userInput"><br>
+     <input type="int" id="userInput" name="userInput"><br><br>
     </form>
  
     
