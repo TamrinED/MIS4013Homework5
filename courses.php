@@ -154,7 +154,7 @@ function light(sw) {
   if (sw == 0) {
     pic = "pic_bulboff.gif"
   } else {
-    pic = "pic_bulbon.gif"
+    pic = "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Lumos.JPG/revision/latest?cb=20110623141942"
   }
   document.getElementById('myImage').src = pic;
 }
