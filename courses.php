@@ -141,7 +141,7 @@ function myFunction1() {
             
 }
     </script>
- <form>
+ <form method = toCelsius() action="">
      <label for = "userInput">"Input Temperature in Fahrenheit"</label><br>
      <input type="int" id="userInput" name="userInput"><br>
     </form>
