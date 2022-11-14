@@ -112,7 +112,7 @@ $conn->close();
     </table>
 
 <script>
-function myFunction() {
+function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
 </script>
@@ -123,8 +123,17 @@ function myFunction() {
 <p>When you click "Secret", you will know a secret.</p>
 <p>The secret is a message.</p>
 
-<button onclick="myFunction()">Secret?</button>
+<button onclick="myFunction1()">Secret?</button>
 
 <p id="demo"></p>
+    
+    <script>
+        function myFunction2() {
+           document.getElementById("right").innerHTML = Date()";
+        }
+    </script>
+    <p>Click "Time" to know the current time.</p>
+    <<button onclick="myFunction2()">Time?</button>
+<p id="right"></p>
     
     <?php require_once("footer.php"); ?>
