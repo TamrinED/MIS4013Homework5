@@ -140,11 +140,11 @@ function myFunction1() {
 function myFunction3() {
   document.getElementById("left").style.fontSize = "25px"; 
   document.getElementById("left").style.color = "blue";
-  document.getElementById("left").style.backgroundColor = "light blue";        
+  document.getElementById("left").style.backgroundColor = "lightblue";        
 }
 </script>
 
-<button type="button" onclick="myFunction3()">Change the colors!</button>
+<button type="button" onclick="myFunction3()">iSpy BLUE!</button>
 
     
     <?php require_once("footer.php"); ?>
