@@ -133,4 +133,21 @@ function myFunction1() {
     <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
     
+    <script>
+        function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+            document.getElementById("fahrenheit").innerHTML = toCelsius("userInput");
+}
+    </script>
+    
+    <form>
+  <label for="fahrenheitToCelsius">Temperature in Fahrenheit:</label><br>
+  <input type="text" id="fahrenheit" name="userInput"><br>
+        <input type="submit" value="Submit">
+</form>
+    
+    <p id="fahrenheit" name="userInput></p>
+    
+
+    
     <?php require_once("footer.php"); ?>
