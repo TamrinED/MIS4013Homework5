@@ -122,8 +122,10 @@ function myFunction1() {
 
 <button onclick="myFunction1()">Secret?</button>
 
-<p padding-left: 80px id="demo"></p>
-    
+    <div> padding-left: 80px;
+<p id="demo"></p>
+    </div>
+        
     <script>
         function myFunction2() {
            document.getElementById("right").innerHTML = Date();
