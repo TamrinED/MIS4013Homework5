@@ -1,13 +1,14 @@
 <?php require_once("header.php"); ?>
 
 <body>
-    <h1>Courses</h1>
+    <h1 id = "left">Courses</h1>
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>CourseID</th>
-      <th>Prefix</th>
-      <th>Number</th>
+      <th id = "left">CourseID</th>
+      <th id = "left">Prefix</th>
+      <th id = "left">Prefix</th>
+      <th id = "left">Number</th>
     </tr>
   </thead>
   
@@ -134,16 +135,15 @@ function myFunction1() {
     <p>Click "Time" to know the current time.</p>
     <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
-    
-    <h1>My First JavaScript</h1>
 
-<p id="left">This will change colors.</p>
+
+//<p id="left">This will change colors.</p>
 
 <script>
 function myFunction3() {
   document.getElementById("left").style.fontSize = "25px"; 
   document.getElementById("left").style.color = "blue";
-  document.getElementById("left").style.backgroundColor = "light-blue";        
+  document.getElementById("left").style.backgroundColor = "light blue";        
 }
 </script>
 
