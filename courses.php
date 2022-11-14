@@ -134,20 +134,15 @@ function myFunction1() {
 <p id="right"></p>
     
     <script>
+        var userInput = prompt("What is the temperature?");
         function toCelsius(userInput) {
             document.getElementById("fahrenheit").innerHTML = toCelsius('userInput');
   return (5/9) * (fahrenheit-32);
             
 }
     </script>
-    
-    <form action= toCelsius()> 
-  <label for="fahrenheitToCelsius">Temperature in Fahrenheit:</label><br>
-  <input type="text" id="fahrenheit" name="userInput"><br>
-        <input type="submit" value="Submit">
-</form>
-    
-    <p id="fahrenheit" name="userInput"></p>
+ 
+    <p id="fahrenheit"></p>
     
 
     
