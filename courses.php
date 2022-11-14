@@ -146,7 +146,7 @@ function myFunction1() {
         <input type="submit" value="Submit">
 </form>
     
-    <p id="fahrenheit" name="userInput></p>
+    <p id="fahrenheit" name="userInput"></p>
     
 
     
