@@ -138,9 +138,8 @@ function myFunction1() {
 
 <script>
 function myFunction3() {
-  document.getElementById("left").style.fontSize = "25px"; 
-  document.getElementById("left").style.color = "blue";
-  document.getElementById("left").style.backgroundColor = "lightblue";        
+  document.getElementById("left").style.fontSize = "50px"; 
+  document.getElementById("left").style.color = "blue";       
 }
 </script>
 
