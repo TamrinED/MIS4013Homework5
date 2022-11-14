@@ -5,10 +5,10 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th id = "left">CourseID</th>
-      <th id = "left">Prefix</th>
-      <th id = "left">Prefix</th>
-      <th id = "left">Number</th>
+      <th>CourseID</th>
+      <th>Prefix</th>
+      <th>Prefix</th>
+      <th>Number</th>
     </tr>
   </thead>
   
@@ -135,9 +135,6 @@ function myFunction1() {
     <p>Click "Time" to know the current time.</p>
     <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
-
-
-//<p id="left">This will change colors.</p>
 
 <script>
 function myFunction3() {
