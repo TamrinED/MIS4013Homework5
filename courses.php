@@ -116,9 +116,6 @@ function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
 </script>
-</head>
-
-<body>
 
 <p>When you click "Secret", you will know a secret.</p>
 <p>The secret is a message.</p>
@@ -133,7 +130,7 @@ function myFunction1() {
         }
     </script>
     <p>Click "Time" to know the current time.</p>
-    <<button onclick="myFunction2()">Time?</button>
+    <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
     
     <?php require_once("footer.php"); ?>
