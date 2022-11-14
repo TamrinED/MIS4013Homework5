@@ -134,15 +134,18 @@ function myFunction1() {
 <p id="right"></p>
     
     <script>
-        var userInput = readLine("What is the temperature?");
+        var userInput = readInt(prompt)("What is the temperature?");
         function toCelsius(userInput) {
-            document.getElementById("fahrenheit").innerHTML = toCelsius('userInput');
-  return (5/9) * (fahrenheit-32);
+            document.getElementById("userInput").innerHTML = toCelsius('userInput');
+  return (5/9) * (userInput-32);
             
 }
     </script>
+ <form>
+     <label for = "userInput">"Input Temperature in Fahrenheit"</label><br>
+     <input type="int" id="userInput" name="userInput"><br>
+    </form>
  
-    <p id="fahrenheit"></p>
     
 
     
