@@ -122,7 +122,7 @@ function myFunction1() {
 
 <button onclick="myFunction1()">Secret?</button>
 
-    <div> padding-left: 80px;
+    <div padding-left: 80px;
 <p id="demo"></p>
     </div>
         
@@ -135,21 +135,19 @@ function myFunction1() {
     <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
     
-    <script>
-        var userInput = readInt(prompt)("What is the temperature?");
-        function toCelsius(userInput) {
-            document.getElementById("userInput").innerHTML = toCelsius('userInput');
-  return (5/9) * (userInput-32);
-            
+    <h1>My First JavaScript</h1>
+
+<p id="left">This will change colors.</p>
+
+<script>
+function myFunction3() {
+  document.getElementById("left").style.fontSize = "25px"; 
+  document.getElementById("left").style.color = "blue";
+  document.getElementById("left").style.backgroundColor = "light-blue";        
 }
-    </script>
-    
- <form method = toCelsius() action="">
-     <label for = "userInput">"Input Temperature in Fahrenheit"</label><br>
-     <input type="int" id="userInput" name="userInput"><br><br>
-    </form>
- 
-    
+</script>
+
+<button type="button" onclick="myFunction3()">Change the colors!</button>
 
     
     <?php require_once("footer.php"); ?>
