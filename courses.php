@@ -134,7 +134,7 @@ function myFunction1() {
 <p id="right"></p>
     
     <script>
-        var userInput = prompt("What is the temperature?");
+        var userInput = readLine("What is the temperature?");
         function toCelsius(userInput) {
             document.getElementById("fahrenheit").innerHTML = toCelsius('userInput');
   return (5/9) * (fahrenheit-32);
