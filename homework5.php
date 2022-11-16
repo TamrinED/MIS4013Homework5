@@ -1,27 +1,6 @@
 <?php require_once("header.php"); ?>
 
 <script>
-  function myFunction4(change) {
-  if (change == 2) {
-    <style>
-h3 {
-  border: 2px solid powderblue;
-  padding: 30px;
-  font-family: verdana;
-  font-size: 150%;
-}
-p {
-  border: 2px solid powderblue;
-  padding: 30px;
-  font-family: courier;
-  font-size: 100%;
-}
-</style>
-  }
-  }
-</script>
-
-<script>
 function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
@@ -78,8 +57,15 @@ function light(sw) {
 <button type="button" onclick="light(0)">OSU</button>
 </p>
 
+<script> 
+  function myFunction4() {
+    document.getElementById("switch").style.fontSize = "55px";
+    document.getElementById("switch").style.background-color = "AntiqueWhite";
+  document.getElementById("switch").style.color = "DarkTurquoise";
+  }
+
 <p>
-<button type="button" onclick="myFunction4(2)">Switch</button>
+<button type="button" onclick="myFunction4()">Switch</button>
 </p>
 
     <?php require_once("footer.php"); ?>
