@@ -1,18 +1,19 @@
 <?php require_once("header.php"); ?>
+</head>
 
 <script>
 function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
 </script>
-</head>
 
+<div padding-left: 80px;>
 <h3 id = left>When you click "Secret", you will know a secret.</h3>
 <p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
+</div>
 
-    <div padding-left: 80px>;
 <p style="color:red;" id="demo"></p>
     </div>
         
