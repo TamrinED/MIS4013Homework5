@@ -160,7 +160,7 @@ function light(sw) {
 }
 </script>
 
-<img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHF5WgOAmP5o9WrnWLpKpcq1NTa7XlHTUnA&usqp=CAU" width="100" height="180">
+<img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHF5WgOAmP5o9WrnWLpKpcq1NTa7XlHTUnA&usqp=CAU" width="200" height="180">
 
 <p>
 <button type="button" onclick="light(1)">OU</button>
