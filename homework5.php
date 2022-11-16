@@ -26,6 +26,7 @@ function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
 </script>
+</head>
 
 <h3 id = left>When you click "Secret", you will know a secret.</h3>
 <p>The secret is a message.</p>
