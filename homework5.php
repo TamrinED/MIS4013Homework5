@@ -7,7 +7,7 @@ function myFunction1() {
 }
 </script>
 
-<h3 id = left>When you click "Secret", you will know a secret.</h3>
+<h3 id = "left">When you click "Secret", you will know a secret.</h3>
 <p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
@@ -61,7 +61,7 @@ function light(sw) {
   }
 </script>
 
-  <h4 id="switch"> Edit this text using the button below</h4> <br>
+  <h4 id=switch> Edit this text using the button below</h4> <br>
 <button type="button" onclick="myFunction4()">Switch</button>
 
     <?php require_once("footer.php"); ?>
