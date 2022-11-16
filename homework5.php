@@ -7,16 +7,11 @@ function myFunction1() {
 }
 </script>
 
-<div padding-left: 80px;>
 <h3 id = left>When you click "Secret", you will know a secret.</h3>
 <p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
-</div>
-
-<p style="color:red;" id="demo"></p>
-    </div>
-        
+     
     <script>
         function myFunction2() {
            document.getElementById("right").innerHTML = Date();
@@ -66,7 +61,7 @@ function light(sw) {
   }
 </script>
 
-  <h3 id = switch> Edit this text using the button below</h3>
+  <h3 id = "switch"> Edit this text using the button below</h3>
 <p>
 <button type="button" onclick="myFunction4()">Switch</button>
   </p>
