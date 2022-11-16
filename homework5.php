@@ -61,7 +61,7 @@ function light(sw) {
   }
 </script>
 
-  <h3 id = "switch"> Edit this text using the button below</h3>
+  <h3 id="switch"> Edit this text using the button below</h3>
 <p>
 <button type="button" onclick="myFunction4()">Switch</button>
   </p>
