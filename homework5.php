@@ -1,6 +1,25 @@
 <?php require_once("header.php"); ?>
 
 <script>
+  function myFunction4(change) {
+  if (change == 2) {
+    <style>
+h3 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: green;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+  }
+  }
+</script>
+
+<script>
 function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
 }
@@ -55,26 +74,6 @@ function light(sw) {
 <button type="button" onclick="light(1)">OU</button>
 <button type="button" onclick="light(0)">OSU</button>
 </p>
-    
-<script>
-  function myFunction4(change) {
-<style>
-  if (change == 2) {
-h3 {
-  color: blue;
-  font-family: verdana;
-  font-size: 300%;
-}
-p {
-  color: green;
-  font-family: courier;
-  font-size: 160%;
-}
-</style>
-  }
-   
-  }
-</script>
 
 <p>
 <button type="button" onclick="myFunction4(2)">Switch Colors</button>
