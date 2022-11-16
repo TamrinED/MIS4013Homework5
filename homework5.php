@@ -21,6 +21,7 @@ function myFunction1() {
 
     <h3>Click "Time" to know the current time.</h3>
     <button onclick="myFunction2()">Time?</button>
+<p style="color:red;" id="right"></p>
 <br>
 
 <script>
