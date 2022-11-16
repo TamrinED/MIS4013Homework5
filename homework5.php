@@ -1,9 +1,5 @@
 <?php require_once("header.php"); ?>
 
-<p>
-<button type="button" onclick="myFunction4(2)">Switch Colors</button>
-</p>
-  
 <script>
 function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
@@ -83,4 +79,5 @@ p {
 <p>
 <button type="button" onclick="myFunction4(2)">Switch Colors</button>
 </p>
+
     <?php require_once("footer.php"); ?>
