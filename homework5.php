@@ -20,7 +20,7 @@ function myFunction1() {
 
     <h3>Click "Time" to know the current time.</h3>
     <button onclick="myFunction2()">Time?</button>
-<p style="color:red;" id="right"></p>
+<br>
 
 <script>
 function myFunction3() {
@@ -30,10 +30,10 @@ function myFunction3() {
 </script>
 
     <h3>Click me to change the color of one sentence!</h3>
-<button type="button" onclick="myFunction3()">iSpy BLUE!</button><br>
+<button type="button" onclick="myFunction3()">iSpy BLUE!</button>
+<br>
 
-    <h3>Who is the better team historically!?</h3>
-
+    
 <script>
 function light(sw) {
   var pic;
@@ -46,12 +46,13 @@ function light(sw) {
 }
 </script>
 
+<h3>Who is the better team historically!?</h3>
 <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHF5WgOAmP5o9WrnWLpKpcq1NTa7XlHTUnA&usqp=CAU" width="200" height="180">
 
 <p>
 <button type="button" onclick="light(1)">OU</button>
 <button type="button" onclick="light(0)">OSU</button>
-</p>
+</p><br>
 
 <script> 
   function myFunction4() {
@@ -61,7 +62,7 @@ function light(sw) {
   }
 </script>
 
-  <h4 id=switch> Edit this text using the button below</h4> <br>
+<h3 id="switch"> Edit this text using the button below</h3>
 <button onclick="myFunction4()">Switch</button>
 
     <?php require_once("footer.php"); ?>
