@@ -57,7 +57,7 @@ function light(sw) {
 <script> 
   function myFunction4() {
     document.getElementById("switch").style.fontSize = "55px";
-    document.getElementById("switch").style.background-color = "AntiqueWhite";
+    //document.getElementById("switch").style.background-color = "AntiqueWhite";
   document.getElementById("switch").style.color = "DarkTurquoise";
   }
 </script>
