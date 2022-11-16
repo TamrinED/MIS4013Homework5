@@ -63,9 +63,11 @@ function light(sw) {
     document.getElementById("switch").style.background-color = "AntiqueWhite";
   document.getElementById("switch").style.color = "DarkTurquoise";
   }
+</script>
 
+  <h3 id = myfunction4()> Edit this text using the button below</h3>
 <p>
 <button type="button" onclick="myFunction4()">Switch</button>
-</p>
+  </p>
 
     <?php require_once("footer.php"); ?>
