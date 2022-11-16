@@ -62,6 +62,6 @@ function light(sw) {
 </script>
 
   <h4 id=switch> Edit this text using the button below</h4> <br>
-<button type="button" onclick="myFunction4()">Switch</button>
+<button onclick="myFunction4()">Switch</button>
 
     <?php require_once("footer.php"); ?>
