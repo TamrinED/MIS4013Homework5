@@ -11,6 +11,7 @@ function myFunction1() {
 <p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
+<p> style="color:red;" id="right"></p>
      
     <script>
         function myFunction2() {
