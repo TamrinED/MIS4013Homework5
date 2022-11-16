@@ -1,7 +1,9 @@
 <?php require_once("header.php"); ?>
 
-
-
+<p>
+<button type="button" onclick="myFunction4(2)">Switch Colors</button>
+</p>
+  
 <script>
 function myFunction1() {
   document.getElementById("demo").innerHTML = "MIS is the best division at OU!";
@@ -22,6 +24,7 @@ function myFunction1() {
            document.getElementById("right").innerHTML = Date();
         }
     </script>
+
     <h3>Click "Time" to know the current time.</h3>
     <button onclick="myFunction2()">Time?</button>
 <p style="color:red;" id="right"></p>
@@ -57,4 +60,27 @@ function light(sw) {
 <button type="button" onclick="light(0)">OSU</button>
 </p>
     
+<script>
+  function myFunction4(change) {
+<style>
+  if (change == 2) {
+h3 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: green;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+  }
+   
+  }
+</script>
+
+<p>
+<button type="button" onclick="myFunction4(2)">Switch Colors</button>
+</p>
     <?php require_once("footer.php"); ?>
