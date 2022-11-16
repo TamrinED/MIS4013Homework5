@@ -9,7 +9,7 @@ function myFunction1() {
 </script>
 
 <p id = left>When you click "Secret", you will know a secret.</p>
-<p id = left>The secret is a message.</p>
+<p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
 
@@ -22,21 +22,21 @@ function myFunction1() {
            document.getElementById("right").innerHTML = Date();
         }
     </script>
-    <p id = left>Click "Time" to know the current time.</p>
+    <p>Click "Time" to know the current time.</p>
     <button onclick="myFunction2()">Time?</button>
 <p id="right"></p>
 
 <script>
 function myFunction3() {
-  document.getElementById("left").style.fontSize = "50px"; 
+  document.getElementById("left").style.fontSize = "30px"; 
   document.getElementById("left").style.color = "blue";       
 }
 </script>
 
-    <p id = left>Click me to change the color of the title of this webpage</p>
+    <p>Click me to change the color of the title of this webpage</p>
 <button type="button" onclick="myFunction3()">iSpy BLUE!</button><br>
 
-    <p id = left>Who is the better team historically!?</p>
+    <p>Who is the better team historically!?</p>
 
 <script>
 function light(sw) {
