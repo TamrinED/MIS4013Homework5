@@ -5,14 +5,16 @@
   if (change == 2) {
     <style>
 h3 {
-  color: blue;
+  border: 2px solid powderblue;
+  padding: 30px;
   font-family: verdana;
-  font-size: 300%;
+  font-size: 150%;
 }
 p {
-  color: green;
+  border: 2px solid powderblue;
+  padding: 30px;
   font-family: courier;
-  font-size: 160%;
+  font-size: 100%;
 }
 </style>
   }
@@ -76,7 +78,7 @@ function light(sw) {
 </p>
 
 <p>
-<button type="button" onclick="myFunction4(2)">Switch Colors</button>
+<button type="button" onclick="myFunction4(2)">Switch</button>
 </p>
 
     <?php require_once("footer.php"); ?>
