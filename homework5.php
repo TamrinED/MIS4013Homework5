@@ -8,13 +8,13 @@ function myFunction1() {
 }
 </script>
 
-<p id = left>When you click "Secret", you will know a secret.</p>
+<h3 id = left>When you click "Secret", you will know a secret.</h3>
 <p>The secret is a message.</p>
 
 <button onclick="myFunction1()">Secret?</button>
 
     <div padding-left: 80px>;
-<p id="demo"></p>
+<p style="color:red;" id="demo"></p>
     </div>
         
     <script>
@@ -22,9 +22,9 @@ function myFunction1() {
            document.getElementById("right").innerHTML = Date();
         }
     </script>
-    <p>Click "Time" to know the current time.</p>
+    <h3>Click "Time" to know the current time.</h3>
     <button onclick="myFunction2()">Time?</button>
-<p id="right"></p>
+<p style="color:red;" id="right"></p>
 
 <script>
 function myFunction3() {
@@ -33,10 +33,10 @@ function myFunction3() {
 }
 </script>
 
-    <p>Click me to change the color of the title of this webpage</p>
+    <h3>Click me to change the color of one sentence!</h3>
 <button type="button" onclick="myFunction3()">iSpy BLUE!</button><br>
 
-    <p>Who is the better team historically!?</p>
+    <h3>Who is the better team historically!?</h3>
 
 <script>
 function light(sw) {
