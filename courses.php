@@ -144,27 +144,27 @@ function myFunction3() {
 </script>
 
     <p>Click me to change the color of the title of this webpage</p>
-<button type="button" onclick="myFunction3()">iSpy BLUE!</button>
+<button type="button" onclick="myFunction3()">iSpy BLUE!</button><br>
 
-    <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+    <p>Who is the better team historically!?</p>
 
 <script>
 function light(sw) {
   var pic;
   if (sw == 0) {
-    pic = "pic_bulboff.gif"
+    pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08on-LKlO4ExAMyFxCfNffKwWMkFueMcd8Q&usqp=CAU"
   } else {
-    pic = "https://static.wikia.nocookie.net/harrypotter/images/5/5b/Lumos.JPG/revision/latest?cb=20110623141942"
+    pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBBqKg0MxFj7lmB0CxDDgsS03fXqfS04ajfg&usqp=CAU"
   }
   document.getElementById('myImage').src = pic;
 }
 </script>
 
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHF5WgOAmP5o9WrnWLpKpcq1NTa7XlHTUnA&usqp=CAU" width="100" height="180">
 
 <p>
-<button type="button" onclick="light(1)">Lumos</button>
-<button type="button" onclick="light(0)">Nox</button>
+<button type="button" onclick="light(1)">OU</button>
+<button type="button" onclick="light(0)">OSU</button>
 </p>
     
     <?php require_once("footer.php"); ?>
